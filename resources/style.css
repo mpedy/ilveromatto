@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+:root{
+    --header-color: #f4eee2;
+}
+
+#labs{
+    margin: 100px;
+}
+
+.container{
+    position: relative;
+}
+/*.container>div>div{
+    padding: 40px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+    cursor: pointer;
+    flex-grow: 1;
+    box-shadow: 0px 0px 10px black;
+}*/
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    background-color: #f4eee2;
+    padding: 20px;
+}
+.menuitem{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuitemclick{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.menuitemclick:hover{
+    background-color: bisque;
+}
+.articles{
+    position: relative;
+    margin-top: 80px;
+}
+.article{
+    display: flex;
+    /*align-items: center;*/
+}
+.article>div:first-child{
+    max-width: 50%;
+    flex-grow: 1;
+    justify-content: left;
+}
+.article>div>img{
+    width: 75%;
+}
+.article>div:last-child{
+    max-width: 50%;
+    flex-grow: 1;
+    justify-content: right;
+}
+.article>.text{
+    padding: 40px;
+}
+.selected{
+    background-color: #ffc27a;
+}
+.menuitemclick.selected{
+    background-color: #ffc27a;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    font-size: 14px;
+}
+.footer>div{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.image_coll{
+    width: 20vw;
+}
+.onlymob{
+    display: none;
+}

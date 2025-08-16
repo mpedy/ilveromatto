@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Il Veromatto</title>
+    <link rel="icon" type="image/png" href="resources/favicon.png" />
+    <link rel="stylesheet" href="resources/style.css" />
+    <link rel="stylesheet" href="resources/styleclass.css" />
+    <link rel="stylesheet" href="resources/style.mobile.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <!-- MENU -->
+         <div>
+            <div class="menu">
+                <div class="menuitem" style="justify-content: left;">
+                    <a class="anostyle" style="display: flex; align-items: center;" href="/">
+                        <img src="resources/logo.png" width="80" />
+                        <span>
+                            <h1 id="title" style="font-family: 'Mulish';">Il VeroMatto</h1>
+                        </span>
+                    </a>
+                </div>
+                <div class="menuitem onlyfull" style="max-width: 30vw;">
+                    <div class="menuitemclick flxgrow selected"><a class="anostyle" href="/index.html">Chi siamo</a></div>
+                    <div class="menuitemclick flxgrow"><a class="anostyle" href="/attivita_laboratori.html">Attività e Laboratori</a></div>
+                    <div class="menuitemclick flxgrow"><a class="anostyle" href="/eventi.html">Eventi</a></div>
+                    <div class="menuitemclick flxgrow"><a class="anostyle" href="/contatti.html">Contatti</a></div>
+                </div>
+                <a class="onlymob anostyle" href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="menuitem" style="max-width: 10vw;">
+                    <div></div>
+                </div>
+            </div>
+            <div class="onlymob" id="mobilemenu" style="display: none;">
+                <span class="mobilemenuitem"><a class="anostyle" href="/">Chi siamo</a></span>
+                <span class="mobilemenuitem"><a class="anostyle" href="/attivita_laboratori.html">Attività e laboratori</a></span>
+                <span class="mobilemenuitem"><a class="anostyle" href="/eventi.html">Eventi</a></span>
+                <span class="mobilemenuitem"><a class="anostyle" href="/contatti.html">Contatti</a></span>
+            </div>
+        </div>
+
+        <!-- BODY -->
+        <div class="body">
+            <div class="mainbody" style="display: flex;justify-content: center;align-items: center;">
+                <div>
+                    <img src="resources/logo.svg" style="max-width: 40vw;"/>
+                </div>
+            </div>
+            <div id="chi_siamo" class="articles">
+                <div class="article">
+                    <div style="display: flex; justify-content: center;align-items: center;">
+                        <img src="resources/Veronica.jpg"/>
+                    </div>
+                    <div style="padding: 40px;">
+                        <div style="margin: 30px;">
+                            <span>
+                                <h2>Veronica Grieco</h2>
+                            </span>
+                        </div>
+                        <div>
+                            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article">
+                    <div style="padding: 40px;">
+                        <div style="margin: 30px;">
+                            <span>
+                                <h2>Matteo Provendola</h2>
+                            </span>
+                        </div>
+                        <div>
+                            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content: center; align-items: center;">
+                        <img src="resources/Matteo.jpg"/>
+                    </div>
+                </div>
+
+                <div style="margin: 140px 0px;">
+                    <div style="text-align: center;height: 100px;display: flex;justify-content: center;align-items: center;background-color: #f4eee2;">
+                        <h2 style="font-family: 'Mulish';">Collaborazioni</h2>
+                    </div>
+                </div>
+                <div>
+                    <div style="padding: 20px; margin-bottom: 200px;">
+                        <div style="padding: 20px;display: flex;justify-content: center;align-items: center;width: 100%;gap: 100px;">
+                            <a target="_blank" href="https://www.festivalscienza.it">
+                                <img class="image_coll" style="flex-grow: 1;" src="resources/collaborazioni/festival della scienza.webp"/>
+                            </a>
+                            <a target="_blank" href="https://www.montagnedelmare.it">
+                                <img class="image_coll" style="flex-grow: 1;" src="resources/collaborazioni/montagne del mare.png"/>
+                            </a>
+                            <a target="_blank" href="https://jenjecreations.it">
+                                <img class="image_coll" style="flex-grow: 1;" src="resources/collaborazioni/jenje creations.png"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <div class="footer">
+            <div>
+                <div>Ehila 1</div>
+                <div>Ehila 2</div>
+                <div>Ehila 3</div>
+            </div>
+            <div>
+                <div>Hello 1</div>
+                <div>Hello 2</div>
+            </div>
+            <div>
+                <div>World 1</div>
+                <div>World 2</div>
+                <div>World 3</div>
+                <div>World 4</div>
+                <div>World 5</div>
+            </div>
+        </div>
+        <div style="position: absolute;bottom: 10px; left: 20px; color: white; font-size: 12px;">
+            Copyright by "Il VeroMatto"
+        </div>
+    </div>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("mobilemenu");
+        if (x.style.display === "flex") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "flex";
+        }
+    }
+    </script>
+</body>
+
+</html>

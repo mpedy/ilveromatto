@@ -1,0 +1,19 @@
+.flxgrow{
+    flex-grow: 1;
+}
+.txtleft{
+    text-align: left;
+}
+.txtright{
+    text-align: right;
+}
+.txtcenter{
+    text-align: center;
+}
+.anostyle{
+    text-decoration: none;
+    color: inherit;
+}
+.bold{
+    font-weight: bold;
+}
