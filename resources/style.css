@@ -143,3 +143,6 @@ a.selected[external]{
     width: 30px;
     margin-right: 6px;
 }
+.textcolor > span{
+    margin: 0px 2px;
+}

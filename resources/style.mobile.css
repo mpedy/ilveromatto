@@ -13,8 +13,11 @@
     #eventi{
         margin-bottom: 40px;
     }
+    .container_logo{
+        margin-top: 20px;
+    }
     .onlyfull{
-        display: none;
+        display: none !important;
     }
     .onlymob{
         display: inherit;
@@ -33,6 +36,9 @@
     }
     .article>.text{
         padding: 20px;
+    }
+    .article>div:first-child{
+        max-width: unset;
     }
     .header_collab{
         margin: 40px 0px 20px 0px;
