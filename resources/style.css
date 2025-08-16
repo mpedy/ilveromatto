@@ -105,6 +105,7 @@
 .onlymob{
     display: none;
 }
-.container_collab{
-    gap: 10vw;
+.container_collab>a{
+    flex-grow: 1;
+    margin: 0px 10px;
 }
