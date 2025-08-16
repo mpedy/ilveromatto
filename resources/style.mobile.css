@@ -31,4 +31,7 @@
     .article>.text{
         padding: 20px;
     }
+    .header_collab{
+        margin: 40px 0px 20px 0px;
+    }
 }

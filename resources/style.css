@@ -105,6 +105,9 @@
 .onlymob{
     display: none;
 }
+.header_collab{
+    margin: 140px 0px 20px 0px;
+}
 .container_collab>a{
     flex-grow: 1;
     margin: 0px 10px;
