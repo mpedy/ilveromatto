@@ -82,7 +82,7 @@
 .selected{
     background-color: #ffc27a;
 }
-a.selected[target]{
+a.selected[external]{
     background-color: #f4eee2;
 }
 .menuitemclick.selected{
