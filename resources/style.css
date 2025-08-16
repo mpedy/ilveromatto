@@ -105,3 +105,6 @@
 .onlymob{
     display: none;
 }
+.container_collab{
+    gap: 10vw;
+}
