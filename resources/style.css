@@ -11,6 +11,10 @@
 #labs{
     margin: 100px;
 }
+#eventi{
+    padding: 20px 40px;
+    margin-bottom: 40px;
+}
 
 .container{
     position: relative;
@@ -78,6 +82,9 @@
 .selected{
     background-color: #ffc27a;
 }
+a.selected[target]{
+    background-color: #f4eee2;
+}
 .menuitemclick.selected{
     background-color: #ffc27a;
 }
@@ -111,4 +118,28 @@
 .container_collab>a{
     flex-grow: 1;
     margin: 0px 10px;
+}
+.event{
+    padding-left: 20px;
+}
+.year{
+    margin-top: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.link{
+    padding: 4px;
+    border-radius: 5px;
+}
+.lista_eventi{
+    line-height: 25px;
+}
+.lista_eventi>li{
+    margin-top: 12px;
+}
+.year_sep{
+    border-top: 2px solid black;
+    width: 30px;
+    margin-right: 6px;
 }
