@@ -78,9 +78,17 @@
 }
 .article>.text{
     padding: 40px;
+    font-size: 22px;
 }
 /* Transizione sempre attiva */
 #labs img {
+    opacity: 1;
+    transition: opacity .4s ease;
+    object-fit: contain;
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+#labs_mob img {
     opacity: 1;
     transition: opacity .4s ease;
     object-fit: contain;
@@ -91,6 +99,9 @@
 #labs img.fade-out {
     opacity: 0;
 }
+#labs_mob img.fade-out {
+    opacity: 0;
+}
 .selected{
     background-color: #ffc27a;
 }
@@ -99,6 +110,18 @@ a.selected[external]{
 }
 .menuitemclick.selected{
     background-color: #ffc27a;
+}
+.chi_siamo_descr{
+    padding: 5% 10%;
+    font-family: 'Mulish';
+    font-size: 22px;
+    text-align: center;
+}
+.chi_siamo_descr_nome{
+    font-size: 24px;
+}
+.header_collab_1{
+    margin-bottom: 100px;
 }
 .footer{
     background-color: black;

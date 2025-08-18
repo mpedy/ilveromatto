@@ -13,6 +13,16 @@
     #eventi{
         margin-bottom: 40px;
     }
+    #avventure_matematiche_nel_tempo_img_mob, #chessmath_img_mob, #acqua_and_co_img_mob, #estrazione_dna_img_mob{
+        max-width: 60%;
+        height: auto;
+        float: left;
+    }
+    #che_logica_parli_img_mob, #atlantis_code_img_mob, #gioca_con_strategia_img_mob{
+        max-width: 60%;
+        height: auto;
+        float: right;
+    }
     .container_logo{
         margin-top: 20px;
     }
@@ -21,6 +31,15 @@
     }
     .onlymob{
         display: inherit;
+    }
+    .chi_siamo_descr{
+        font-size: 16px;
+    }
+    .chi_siamo_descr_nome{
+        font-size: 20px;
+    }
+    .header_collab_1{
+        margin-bottom: 20px;
     }
     .image_coll{
         width: 20vw;
@@ -33,9 +52,11 @@
     }
     .articles{
         margin-top: 0px;
+        margin-bottom: 100px;
     }
     .article>.text{
         padding: 20px;
+        font-size: 16px;
     }
     .article>div:first-child{
         max-width: unset;
