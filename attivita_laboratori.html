@@ -106,7 +106,7 @@
             <div id="labs" class="articles">
                 <div id="avventure_matematiche_nel_tempo" class="article">
                     <div style="display: flex; justify-content: center;align-items: center;">
-                        <img src="resources/logo.png"/>
+                        <img id="avventure_matematiche_nel_tempo_img" src="resources/logo.png"/>
                     </div>
                     <div class="text">
                         <div style="margin: 30px;">
@@ -132,13 +132,13 @@
                         </div>
                     </div>
                     <div style="display: flex; justify-content: center; align-items: center;">
-                        <img src="resources/logo.png"/>
+                        <img id="che_logica_parli_img" src="resources/logo.png"/>
                     </div>
                 </div>
 
                 <div id="chessmath" class="article">
                     <div style="display: flex; justify-content: center;align-items: center;">
-                        <img src="resources/logo.png"/>
+                        <img id="chessmath_img" src="resources/logo.png"/>
                     </div>
                     <div class="text">
                         <div style="margin: 30px;">
@@ -164,13 +164,13 @@
                         </div>
                     </div>
                     <div style="display: flex; justify-content: center; align-items: center;">
-                        <img src="resources/logo.png"/>
+                        <img id="atlantis_code_img" src="resources/logo.png"/>
                     </div>
                 </div>
 
                 <div id="acqua_and_co" class="article">
                     <div style="display: flex; justify-content: center;align-items: center;">
-                        <img src="resources/logo.png"/>
+                        <img id="acqua_and_co_img" src="resources/logo.png"/>
                     </div>
                     <div class="text">
                         <div style="margin: 30px;">
@@ -196,27 +196,14 @@
                         </div>
                     </div>
                     <div style="display: flex; justify-content: center; align-items: center;">
-                        <img src="resources/logo.png"/>
-                    </div>
-                </div>
-
-                <div id="passeggiate_improbabili" class="article">
-                    <div style="display: flex; justify-content: center;align-items: center;">
-                        <img src="resources/logo.png"/>
-                    </div>
-                    <div class="text">
-                        <div style="margin: 30px;">
-                            <span>
-                                <h2>Passeggiate improbabili</h2>
-                            </span>
-                        </div>
-                        <div>
-                            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
-                        </div>
+                        <img id="gioca_con_strategia_img" src="resources/logo.png"/>
                     </div>
                 </div>
 
                 <div id="estrazione_dna" class="article">
+                    <div style="display: flex; justify-content: center;align-items: center;">
+                        <img id="estrazione_dna_img" src="resources/logo.png"/>
+                    </div>
                     <div class="text">
                         <div style="margin: 30px;">
                             <span>
@@ -226,9 +213,6 @@
                         <div>
                             <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
                         </div>
-                    </div>
-                    <div style="display: flex; justify-content: center; align-items: center;">
-                        <img src="resources/logo.png"/>
                     </div>
                 </div>
             </div>
@@ -264,6 +248,159 @@
         } else {
             x.style.display = "flex";
         }
+    }
+
+    const galleries = {
+        avventure_matematiche_nel_tempo: [
+            { src: "resources/labs/amnt/amnt-1.jpg", alt: "Avventure matematiche nel tempo - 1" },
+            { src: "resources/labs/amnt/amnt-2.jpg", alt: "Avventure matematiche nel tempo - 2" },
+            { src: "resources/labs/amnt/amnt-3.jpg", alt: "Avventure matematiche nel tempo - 3" },
+            { src: "resources/labs/amnt/amnt-4.jpg", alt: "Avventure matematiche nel tempo - 4" },
+            { src: "resources/labs/amnt/amnt-5.jpg", alt: "Avventure matematiche nel tempo - 5" },
+            { src: "resources/labs/amnt/amnt-6.jpg", alt: "Avventure matematiche nel tempo - 6" },
+            { src: "resources/labs/amnt/amnt-7.jpg", alt: "Avventure matematiche nel tempo - 7" },
+            { src: "resources/labs/amnt/amnt-8.jpg", alt: "Avventure matematiche nel tempo - 8" },
+            { src: "resources/labs/amnt/amnt-9.jpg", alt: "Avventure matematiche nel tempo - 9" },
+            { src: "resources/labs/amnt/amnt-10.jpg", alt: "Avventure matematiche nel tempo - 10" },
+            { src: "resources/labs/amnt/amnt-11.jpg", alt: "Avventure matematiche nel tempo - 11" },
+            { src: "resources/labs/amnt/amnt-12.jpg", alt: "Avventure matematiche nel tempo - 12" }
+        ],
+        che_logica_parli: [
+            { src: "resources/labs/logica/logica-1.jpg", alt: "Che logica parli - 1" },
+            { src: "resources/labs/logica/logica-2.jpg", alt: "Che logica parli - 2" },
+            { src: "resources/labs/logica/logica-3.jpg", alt: "Che logica parli - 3" },
+            { src: "resources/labs/logica/logica-4.jpg", alt: "Che logica parli - 4" },
+            { src: "resources/labs/logica/logica-5.jpg", alt: "Che logica parli - 5" },
+            { src: "resources/labs/logica/logica-6.jpg", alt: "Che logica parli - 6" },
+            { src: "resources/labs/logica/logica-7.jpg", alt: "Che logica parli - 7" },
+            { src: "resources/labs/logica/logica-8.jpg", alt: "Che logica parli - 8" },
+            { src: "resources/labs/logica/logica-9.jpg", alt: "Che logica parli - 9" },
+            { src: "resources/labs/logica/logica-10.jpg", alt: "Che logica parli - 10" },
+            { src: "resources/labs/logica/logica-11.jpg", alt: "Che logica parli - 11" },
+            { src: "resources/labs/logica/logica-12.jpg", alt: "Che logica parli - 12" },
+            { src: "resources/labs/logica/logica-13.jpg", alt: "Che logica parli - 13" },
+            { src: "resources/labs/logica/logica-14.jpg", alt: "Che logica parli - 14" },
+            { src: "resources/labs/logica/logica-15.jpg", alt: "Che logica parli - 15" }
+        ],
+        chessmath: [
+            { src: "resources/labs/chessmath/chessmath-1.jpg", alt: "ChessMath - 1" },
+            { src: "resources/labs/chessmath/chessmath-2.jpg", alt: "ChessMath - 2" },
+            { src: "resources/labs/chessmath/chessmath-3.jpg", alt: "ChessMath - 3" },
+            { src: "resources/labs/chessmath/chessmath-4.jpg", alt: "ChessMath - 4" },
+            { src: "resources/labs/chessmath/chessmath-5.jpg", alt: "ChessMath - 5" },
+            { src: "resources/labs/chessmath/chessmath-6.jpg", alt: "ChessMath - 6" },
+            { src: "resources/labs/chessmath/chessmath-7.jpg", alt: "ChessMath - 7" },
+            { src: "resources/labs/chessmath/chessmath-8.jpg", alt: "ChessMath - 8" },
+            { src: "resources/labs/chessmath/chessmath-9.jpg", alt: "ChessMath - 9" },
+            { src: "resources/labs/chessmath/chessmath-10.jpg", alt: "ChessMath - 10" },
+            { src: "resources/labs/chessmath/chessmath-11.jpg", alt: "ChessMath - 11" },
+            { src: "resources/labs/chessmath/chessmath-12.jpg", alt: "ChessMath - 12" },
+            { src: "resources/labs/chessmath/chessmath-13.jpg", alt: "ChessMath - 13" }
+        ],
+        atlantis_code: [
+            { src: "resources/labs/atlantis/atlantis-1.jpg", alt: "Atlantis Code - 1" },
+            { src: "resources/labs/atlantis/atlantis-2.jpg", alt: "Atlantis Code - 2" },
+            { src: "resources/labs/atlantis/atlantis-3.jpg", alt: "Atlantis Code - 3" }
+        ],
+        acqua_and_co: [
+            { src: "resources/labs/acqua/acqua-1.jpg", alt: "Acqua & Co. - 1" },
+            { src: "resources/labs/acqua/acqua-2.jpg", alt: "Acqua & Co. - 2" },
+            { src: "resources/labs/acqua/acqua-3.jpg", alt: "Acqua & Co. - 3" },
+            { src: "resources/labs/acqua/acqua-4.jpg", alt: "Acqua & Co. - 4" }
+        ],
+        gioca_con_strategia: [
+            { src: "resources/labs/gioca/gioca-1.jpg", alt: "Gioca con strategia - 1" },
+            { src: "resources/labs/gioca/gioca-2.jpg", alt: "Gioca con strategia - 2" },
+            { src: "resources/labs/gioca/gioca-3.jpg", alt: "Gioca con strategia - 3" },
+            { src: "resources/labs/gioca/gioca-4.jpg", alt: "Gioca con strategia - 4" },
+            { src: "resources/labs/gioca/gioca-5.jpg", alt: "Gioca con strategia - 5" },
+            { src: "resources/labs/gioca/gioca-6.jpg", alt: "Gioca con strategia - 6" },
+            { src: "resources/labs/gioca/gioca-7.jpg", alt: "Gioca con strategia - 7" },
+            { src: "resources/labs/gioca/gioca-8.jpg", alt: "Gioca con strategia - 8" },
+            { src: "resources/labs/gioca/gioca-9.jpg", alt: "Gioca con strategia - 9" },
+            { src: "resources/labs/gioca/gioca-10.jpg", alt: "Gioca con strategia - 10" },
+            { src: "resources/labs/gioca/gioca-11.jpg", alt: "Gioca con strategia - 11" },
+            { src: "resources/labs/gioca/gioca-12.jpg", alt: "Gioca con strategia - 12" },
+            { src: "resources/labs/gioca/gioca-13.jpg", alt: "Gioca con strategia - 13" }
+        ],
+        estrazione_dna: [
+            { src: "resources/labs/dna/dna-1.jpg", alt: "Estrazione del DNA - 1" },
+            { src: "resources/labs/dna/dna-2.jpg", alt: "Estrazione del DNA - 2" },
+            { src: "resources/labs/dna/dna-3.jpg", alt: "Estrazione del DNA - 3" },
+            { src: "resources/labs/dna/dna-4.jpg", alt: "Estrazione del DNA - 4" },
+            { src: "resources/labs/dna/dna-5.jpg", alt: "Estrazione del DNA - 5" },
+            { src: "resources/labs/dna/dna-6.jpg", alt: "Estrazione del DNA - 6" },
+            { src: "resources/labs/dna/dna-7.jpg", alt: "Estrazione del DNA - 7" },
+            { src: "resources/labs/dna/dna-8.jpg", alt: "Estrazione del DNA - 8" }
+        ]
+    };
+
+    function preloadAll(galleries){
+        Object.values(galleries).flat().forEach(o=>{
+            const img = new Image();
+            img.src = o.src;
+        });
+    }
+
+    function startCarousels(intervalMs = 5000){
+        Object.entries(galleries).forEach(([key, images])=>{
+            if(!images || images.length === 0) return;
+            const el = document.getElementById(key + "_img");
+            if(!el) return;
+            let i = 0;
+            // iniziale
+            el.src = images[0].src;
+            el.alt = images[0].alt;
+            // ciclo
+            setInterval(()=>{
+                i = (i + 1) % images.length;
+                fadeSwap(el, images[i]);
+            }, intervalMs);
+        });
+    }
+
+    function old_fadeSwap(el, data){
+        el.classList.add("fade-out");
+        setTimeout(()=>{
+            el.src = data.src;
+            el.alt = data.alt;
+            el.classList.remove("fade-out");
+            el.classList.add("fade-in");
+            setTimeout(()=> el.classList.remove("fade-in"), 400);
+        }, 400);
+    }
+
+    function fadeSwap(el, data){
+        // avvia fade-out
+        el.classList.add("fade-out");
+        // al termine della transizione cambia immagine e fai fade-in
+        const handler = () => {
+            el.removeEventListener("transitionend", handler);
+            el.src = data.src;
+            el.alt = data.alt;
+            // forza reflow prima di togliere la classe (garantisce la transizione inversa)
+            requestAnimationFrame(()=> {
+                el.classList.remove("fade-out"); // torna a opacity:1
+            });
+        };
+        el.addEventListener("transitionend", handler, { once: true });
+    }
+
+    // Avvia quando DOM pronto
+    document.addEventListener("DOMContentLoaded", ()=>{
+        preloadAll(galleries);
+        startCarousels(5000);
+    });
+
+    function createCarousel(){
+        var avventure_matematiche_nel_tempo_img = document.getElementById("avventure_matematiche_nel_tempo_img");
+        var che_logica_parli_img = document.getElementById("che_logica_parli_img");
+        var chessmath_img = document.getElementById("chessmath_img");
+        var atlantis_code_img = document.getElementById("atlantis_code_img");
+        var acqua_and_co_img = document.getElementById("acqua_and_co_img");
+        var gioca_con_strategia_img = document.getElementById("gioca_con_strategia_img");
+        var passeggiate_improbabili_img = document.getElementById("passeggiate_improbabili_img");
+        var estrazione_dna_img = document.getElementById("estrazione_dna_img");
     }
     </script>
 </body>

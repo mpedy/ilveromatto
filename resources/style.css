@@ -79,6 +79,18 @@
 .article>.text{
     padding: 40px;
 }
+/* Transizione sempre attiva */
+#labs img {
+    opacity: 1;
+    transition: opacity .4s ease;
+    object-fit: contain;
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+/* Stato di dissolvenza */
+#labs img.fade-out {
+    opacity: 0;
+}
 .selected{
     background-color: #ffc27a;
 }
