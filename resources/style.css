@@ -182,3 +182,56 @@ a.selected[external]{
 .textcolor > span{
     margin: 0px 2px;
 }
+@media (prefers-color-scheme: dark) {
+    *{
+        color: white;
+        background-color: #888;
+    }
+    :root{
+        --header-color: #333;
+        --font-color: #222;
+    }
+    .lista_eventi>*{
+        color: var(--font-color);
+    }
+    .year{
+        color: var(--font-color);
+    }
+    strong{
+        color: var(--font-color);
+    }
+    .nobackground{
+        background-color: unset !important;
+    }
+    .title_heading{
+        color: black;
+    }
+    .menu, .footer{
+        background-color: #222;
+        color: white;
+    }
+    .article>.text{
+        color: white;
+    }
+    .chi_siamo_descr, .chi_siamo_descr_nome{
+        color: white;
+    }
+    .footer>div{
+        color: white;
+    }
+    .menuitemclick.selected{
+        background-color: #ffc27a !important;
+    }
+    .menuitemclick.selected>div{
+        color: black;
+    }
+    .menuitemclick:hover{
+        background-color: bisque !important;
+    }
+    .menuitemclick:hover>div{
+        color: black;
+    }
+    .contact_text_email, .contact_text_social{
+        color: black !important;
+    }
+}
