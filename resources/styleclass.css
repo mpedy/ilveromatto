@@ -17,3 +17,18 @@
 .bold{
     font-weight: bold;
 }
+.underlined{
+    text-decoration: underline;
+}
+.pl-4{
+    padding-left: 4px;
+}
+.pl-8{
+    padding-left: 8px;
+}
+.pl-12{
+    padding-left: 12px;
+}
+.pl-14{
+    padding-left: 14px;
+}
