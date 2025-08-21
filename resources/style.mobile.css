@@ -64,4 +64,12 @@
     .header_collab{
         margin: 40px 0px 20px 0px;
     }
+    .footer{
+        padding: 20px;
+        padding-bottom: 60px;
+    }
+    .footer>div{
+        padding-left: 8%;
+        font-size: 12px;
+    }
 }
